@@ -1,0 +1,12 @@
+Copie aqui el driver JDBC de Oracle antes de ejecutar el proyecto:
+
+- ojdbc14.jar  recomendado para Oracle 10g
+- ojdbc6.jar   tambien funciona si el entorno de la U lo tiene
+
+La clase ConexionBD usa:
+jdbc:oracle:thin:@192.168.254.215:1521:orcl
+Usuario: JEURUS
+Clave: JEURUS
+
+El codigo Java no importa clases oracle directamente, por eso compila sin el jar.
+Para conectarse en tiempo de ejecucion si necesita el jar en el classpath.
